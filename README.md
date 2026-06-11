@@ -146,12 +146,3 @@ builder.Register<IMyService, MyService>(Lifetime.Singleton);
 
 ---
 
-## 📚 Learn more
-
-- **Setup guide** → [`Documentation~/README.md`](Documentation~/README.md)
-- **Full architecture** → [`Docs/README.md`](../../Docs/README.md)
-- **Import into a game** → [`IMPORT_GUIDE.md`](../../IMPORT_GUIDE.md)
-
----
-
-<p align="center"><sub>Built with ❤️ on Unity 6 LTS · Mudit Template</sub></p>
