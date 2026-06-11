@@ -40,6 +40,72 @@ Boot scene  ─►  RootLifetimeScope        register every service
 
 ---
 
+## 🔍 Under the Hood
+
+### Runtime boot sequence
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Ed as EditorBootStrapper
+    participant Root as RootLifetimeScope
+    participant Entry as SingleEntryPoint
+    participant Boot as BootLifetimeScope (child)
+    participant App as AppBootstrapper
+    participant Svc as IRootService list
+    participant Scene as SceneLoaderService
+
+    Ed->>Root: force-load "Boot" scene
+    Root->>Root: Configure() registers MessagePipe + services
+    Root->>Entry: RegisterEntryPoint(IStartable)
+    Note over Entry: Start() fires after container build
+    Entry->>Boot: CreateChildFromPrefab(BootLifetimeScope)
+    Boot->>App: Resolve AppBootstrapper
+    loop each IRootService, in order
+        App->>Svc: await InitializeAsync(serviceData)
+    end
+    App-->>Entry: boot complete
+    Entry->>Boot: Dispose() child scope
+    Entry->>Scene: LoadSceneAsync(MainMenu / GamePlay)
+```
+
+### How the pieces connect
+
+```mermaid
+flowchart TB
+    Config["ScriptableObjects<br/>ServiceData · AppData · AudioData<br/>ScopeRegistryData · SceneUIDatabase"]
+
+    subgraph Container["VContainer — Root DI Container · app lifetime"]
+        direction TB
+        MP(["MessagePipe<br/>pub / sub events"])
+        subgraph Services["Registered as IRootService · Singleton"]
+            direction LR
+            A["📊 Analytics"]
+            B["📺 Ads"]
+            P["💳 Payments*"]
+            AU["🔊 Audio"]
+            UI["🖼️ UI"]
+            SC["🎬 SceneLoader"]
+            LO["⏳ Loading"]
+            SV["💾 Save"]
+        end
+    end
+
+    Config -->|injected| Services
+    Services -->|InitializeAsync| App["AppBootstrapper"]
+    UI -->|Show&lt;T&gt; / Back stack| Views["UIView screens"]
+    SC -->|LoadSceneAsync| Scenes["MainMenu · GamePlay"]
+    SC -.->|SetUIViewPrefabsAsync| UI
+    MP -.->|decoupled events| Services
+
+    %% * Payments resolves per platform: Android / iOS / Mock
+```
+
+> **\* Payments** swaps implementation at compile time — `AndroidPaymentService`, `IOSPaymentService`, or `MockPaymentService` (editor) — all behind the same `IPaymentService`.
+> Each service can be toggled off via a checkbox on `RootLifetimeScope` (`isAdsEnabled`, `isAudioEnabled`, …).
+
+---
+
 ## 🧱 Architecture at a glance
 
 ```
