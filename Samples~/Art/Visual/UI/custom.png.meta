@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 82f81de4b992fb543a93005c5f73af65
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loading_bar_fill_big
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1997
+        width: 198
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d84222dca972df40a566d27148717c1
+      internalID: -640158658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1797
+        width: 182
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629edd3a71ccf0f4d91ef717e94fd8b9
+      internalID: 1756426694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1797
+        width: 182
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0dd8c68cc10204aa3bd835f6a56577
+      internalID: 2010889906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty_loading_bar_big
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1909
+        width: 794
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65644572ddcda3447beb4ac391e54936
+      internalID: -1576611511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1797
+        width: 182
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc9c59f87026b44b8fa3a56e6cccf65
+      internalID: -420999071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_background_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1255
+        width: 794
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f513b1816fd38448ca080f6d87311b
+      internalID: 732117677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1151
+        width: 179
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dee5d07fb63244dbb724e011e1590b
+      internalID: 51533317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty_loading_bar_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1099
+        width: 844
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479da0368a669f408cdf463e4374ffc
+      internalID: -466433928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading_bar_fill_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1068
+        width: 842
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7a163a46357345ae1e3bd11d72f1f
+      internalID: 784580737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty_loading_bar_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 964
+        width: 553
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd475941c5080c04489fc1e9cae0c762
+      internalID: -1935724280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading_bar_fill_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 931
+        width: 554
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a566762ab58faa4d907775a450ef9cb
+      internalID: -798388558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_background_2
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 958
+        width: 527
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb82b93d15010e4b85d76f6ac1c8faa
+      internalID: 779524281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ffbe24caae584f4fae185c7fa3c5bda
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      button_1: -420999071
+      button_2: 1756426694
+      button_3: 2010889906
+      button_4: 51533317
+      custom_11: 1550178683
+      custom_12: 1006255134
+      custom_13: 308486908
+      custom_14: -296730958
+      custom_15: 1877206801
+      custom_16: 1032614133
+      custom_17: -161462681
+      custom_18: -1742517864
+      custom_20: 507311956
+      custom_21: 157436451
+      custom_22: 1065780672
+      custom_23: -249162496
+      custom_24: 1726847704
+      custom_25: 459635313
+      custom_26: 874408054
+      custom_27: -520380887
+      custom_28: -174720646
+      custom_29: 351126823
+      custom_30: 1678791599
+      custom_31: -1384888269
+      custom_32: -587894933
+      custom_33: -1819408487
+      custom_35: -435944194
+      custom_38: 254680974
+      custom_39: 1655181224
+      custom_4: 823889852
+      custom_40: 822970004
+      custom_43: -1265471026
+      custom_44: 1823166428
+      custom_45: -823054648
+      custom_46: -1316279874
+      custom_47: 1190732170
+      custom_48: 402427178
+      custom_49: -1096092022
+      custom_5: 921986468
+      custom_50: -1491953760
+      custom_51: 166323101
+      custom_52: 1213512403
+      custom_53: -1884201331
+      custom_54: -1520961307
+      custom_55: 2100413068
+      custom_56: -124162542
+      custom_57: 470641962
+      custom_58: 1876376475
+      custom_59: 197593398
+      custom_6: 933745108
+      custom_60: 882563377
+      custom_61: -191036196
+      custom_62: -2130034802
+      custom_63: 103781906
+      custom_64: 1047649832
+      custom_65: 1315118060
+      custom_66: -1201911432
+      custom_67: 468032226
+      custom_68: 395162074
+      custom_69: 1328903908
+      custom_7: -586130084
+      custom_70: 773135892
+      custom_71: 1166570191
+      custom_72: -49159001
+      custom_73: 331150908
+      custom_74: -724144199
+      custom_75: -1132926319
+      custom_76: -1262011227
+      custom_77: -1967523318
+      custom_78: 1975164119
+      custom_79: 1821236149
+      custom_8: 2126445795
+      custom_9: 1179188874
+      empty_loading_bar_1: -466433928
+      empty_loading_bar_2: -1935724280
+      empty_loading_bar_big: -1576611511
+      loading_bar_fill_1: 784580737
+      loading_bar_fill_2: -798388558
+      loading_bar_fill_big: -640158658
+      panel_background_1: 732117677
+      panel_background_2: 779524281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

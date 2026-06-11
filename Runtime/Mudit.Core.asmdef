@@ -1,0 +1,27 @@
+{
+    "name": "Mudit.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+        "GUID:4f682e06dbb3e624faedad9cc27106cc",
+        "GUID:760a4c7888534400e882b82c5b3fba06"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Firebase.Analytics.dll",
+        "Firebase.App.dll",
+        "Firebase.Editor.dll",
+        "Firebase.TaskExtension.dll",
+        "Firebase.Platform.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

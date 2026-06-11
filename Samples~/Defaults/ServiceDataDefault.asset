@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ce862c6ca54bd48ac37da77f84e592, type: 3}
+  m_Name: ServiceDataDefault
+  m_EditorClassIdentifier: 
+  ironSourceConfig:
+    appKeyAndroid: 85460dcd
+    appKeyIOS: 8545d445
+    bannerAdUnitIdAndroid: thnfvcsog13bhn08
+    bannerAdUnitIdIOS: iep3rxsyp9na3rw8
+    interstitialAdUnitIdAndroid: aeyqi3vqlv6o8sh9
+    interstitialAdUnitIdIOS: wmgt0712uuux8ju4
+    rewardedAdUnitIdAndroid: 76yy3nay3ceui2a3
+    rewardedAdUnitIdIOS: qwouvdrkuwivay5q
+  ID_IOS: 
+  ID_Android: 
+  Name: 
+  AnalyticsAPIKey: 
+  AdsAPIKey: 
+  PaymentsAPIKey: 
+  audioData: {fileID: 11400000, guid: 7112aa94a681e5c4e9261ec9b4b20d36, type: 2}
+  sceneUIDatabase: {fileID: 11400000, guid: b571bd28369b22d4eaa4a8f35d51b9e8, type: 2}

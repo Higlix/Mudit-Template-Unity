@@ -1,0 +1,16 @@
+{
+    "name": "com.mudit.core",
+    "displayName": "Mudit Core",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Mobile game framework with DI-based boot sequence, service architecture, and UI management.",
+    "documentationUrl": "",
+    "changelogUrl": "",
+    "samples": [
+        {
+            "displayName": "Default Setup",
+            "description": "Starter scenes, prefabs, SO instances, and demo views",
+            "path": "Samples~/Default Setup"
+        }
+    ]
+}
