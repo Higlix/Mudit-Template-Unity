@@ -58,8 +58,7 @@ namespace Mudit.Core.Services.SceneLoaderService
 			if (string.IsNullOrEmpty(sceneName)) return null;
 
 			var allScopes = Object.FindObjectsByType<LifetimeScope>(
-				FindObjectsInactive.Include,
-				FindObjectsSortMode.None);
+				FindObjectsInactive.Include);
 
 			foreach (var scope in allScopes)
 			{
